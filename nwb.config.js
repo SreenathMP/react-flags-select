@@ -3,7 +3,7 @@ module.exports = {
   npm: {
     esModules: true,
     umd: {
-      global: 'ReactFlagsSelect',
+      global: 'ReactFlagsSelect1',
       externals: {
         react: 'React'
       }

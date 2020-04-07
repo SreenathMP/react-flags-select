@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import countries from './countries';
 
-class ReactFlagsSelect extends Component {
+class ReactFlagsSelect1 extends Component {
 	constructor(props){
 		super(props);
 
@@ -179,7 +179,7 @@ class ReactFlagsSelect extends Component {
 	}
 }
 
-ReactFlagsSelect.defaultProps = {
+ReactFlagsSelect1.defaultProps = {
 	selectedSize: 16,
 	optionsSize: 14,
 	placeholder: "Select a country",
@@ -193,7 +193,7 @@ ReactFlagsSelect.defaultProps = {
 	searchPlaceholder: 'Search',
 }
 
-ReactFlagsSelect.propTypes = {
+ReactFlagsSelect1.propTypes = {
 	countries: PropTypes.array,
 	blackList: PropTypes.bool,
 	customLabels: PropTypes.object,
@@ -211,4 +211,4 @@ ReactFlagsSelect.propTypes = {
 	searchPlaceholder: PropTypes.string,
 }
 
-export default ReactFlagsSelect;
+export default ReactFlagsSelect1;
